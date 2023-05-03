@@ -1,0 +1,17 @@
+.btn-yellow{
+  background-color:$yellow;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 5px 7px  rgba(254,209,0,0.4);
+  &:hover{
+    box-shadow:0px 0px 4px  rgba(254,209,0,0.7);
+    transition: all ease-in-out;
+    color: white;
+  }
+}
+.btn-rounded{
+  border-radius: 50px;
+}
+.btn-full{
+  width: 100%;
+}

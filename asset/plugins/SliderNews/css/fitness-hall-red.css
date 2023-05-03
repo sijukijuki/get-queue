@@ -1,0 +1,69 @@
+/*!
+SliderNews plugin for wordpress the wrapper for JSliderNews, JQuery-based slider from LoF (@link http://landofcoder.com LoF) 
+Wordpress version supported: 3.4 and above
+
+@package wordpress\extends\plugins\SliderNews
+@used-by SliderNews plugin
+@link http://blog.pshentsoff.ru/wp-plugins/slidernews Plugin URI
+
+@author Vadim Pshentsov <pshentsoff@yandex.ru>
+@link http://blog.pshentsoff.ru/ Author URI
+
+@copyright Copyright 2012  Vadim Pshentsov  (email : pshentsoff@yandex.ru)
+@license http://opensource.org/licenses/gpl-2.0.php GNU General Public License, version 2 (GPL-2.0)
+*/  
+
+/******** SLIDER  **********/
+#container 													{ width:960px; border:#743161 solid 1px; margin:0px auto 0px; background:#fff; padding:0px; font-size:12px; margin-top:0px; }
+/* slider layout */
+.lof-slidecontent 											{ height:300px; width:960px; position:relative; overflow:hidden; border:#fde5f6 solid 1px;}
+.lof-slidecontent .preload									{ height:100%;	width:100%;	position:absolute;	top:0px; left:0px; z-index:100000; text-align:center; background:#FFF;}
+.lof-slidecontent .preload div								{ height:100%;	width:100%;	background:transparent url(images/load-indicator.gif) no-repeat scroll 50% 50%;}
+
+.lof-slidecontent  .sliders-wrapper							{width:900px; height:100%; position:relative; z-index:3px; overflow:hidden; }
+.lof-slidecontent  ul.sliders-wrap-inner					{overflow:hidden; background:transparent url(images/load-indicator.gif) no-repeat scroll 50% 50%; padding:0px; margin:0px; position:absolute;	overflow:hidden;}
+.lof-slidecontent  ul.sliders-wrap-inner li					{overflow:hidden; padding:0px;margin:0px; float:left; position:relative;}
+.lof-slidecontent  .lof-opacity  li							{position:absolute;	top:0px;	left:0px;	float:inherit; }
+
+.lof-slidecontent  .navigator-content 						{ width:333px; height:300px; position:absolute; right:0; top:0px;	z-index:9; overflow:hidden; color:#FFF; }
+.lof-slidecontent  .navigator-wrapper						{ width:310px; height:180px; position:relative; z-index:10; overflow:hidden; color:#FFF; float:left; }
+.lof-slidecontent  ul.navigator-wrap-inner					{ top:0px; padding:0px;	margin:0px; position:absolute; width:100%; }
+.lof-slidecontent  ul.navigator-wrap-inner li				{ cursor:hand; 	cursor:pointer;	list-style:none; padding:0;	margin-left:0px; overflow:hidden; float:left; display:block; text-align:center;}
+
+/****** - description - *******/
+ul.sliders-wrap-inner li img								{ padding:0px; }
+.lof-slidecontent .slider-description a.readmore			{ color:#58B1EA; font-size:95%; }
+.lof-slidecontent .slider-description a						{ color:#000; text-decoration:none;}
+.lof-slidecontent .slider-description						{ width:350px;	height:100px; z-index:100px; position:absolute;	bottom:0px; left:0px; background:url(images/bg_trans.png); padding:10px; color:#FFF; }
+.lof-slidecontent .slider-description h3 					{ color:#333; font-size:15px; padding:15px 0px 0px 0px; !important;  margin:0px 0px 0px 0px; }
+.lof-slidecontent .slider-description .slider-meta a		{ margin:0;	background:#C01F25;	font-size:75%; padding:2px 3px;	font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,sans-serif; text-transform:uppercase; text-decoration:none; }
+.lof-slidecontent  .item-meta a:hover						{ text-decoration:underline;}
+.lof-slidecontent  .item-meta i 							{ font-size:70%; }
+
+/****** - navigator - *******/
+.lof-slidecontent ul.navigator-wrap-inner  li.active		{ background:url(images/arrow_nav_red.gif) no-repeat scroll left center; color:#FFF }
+.lof-slidecontent ul.navigator-wrap-inner  li >  div		{ background:url(images/bg_nav_red.gif); color:#333; height:100%; position:relative; margin:0px 10px 0px 15px; padding-left:15px; border-top:0px solid #E1E1E1; text-align:left; }
+
+.lof-slidecontent ul.navigator-wrap-inner li h3				{ font-size: 15px; color:#b50614; padding:15px 0px 0px 0px; margin:0px 10px 0px 0px; }
+.lof-slidecontent ul.navigator-wrap-inner li p				{ font-size: 12px; margin:0px 10px 0px 0px; }
+.lof-slidecontent ul.navigator-wrap-inner li a				{ font-size: 12px; color:#000;  text-decoration: none;}
+.lof-slidecontent ul.navigator-wrap-inner li a:hover		{ text-decoration: underline;}
+
+.lof-slidecontent ul.navigator-wrap-inner li.active div		{ background:url(images/grad_nav_red.gif); color:#FFF; }
+.lof-slidecontent ul.navigator-wrap-inner li.active h3		{ color:#FFF;}
+.lof-slidecontent ul.navigator-wrap-inner li.active a		{ color:#FFF;}
+
+.lof-slidecontent ul.navigator-wrap-inner li img			{ height:60px; width:60px; margin:15px 15px 10px 0px; float:left; padding:3px; border:#cca1bf solid 1px; }
+.lof-slidecontent ul.navigator-wrap-inner li.active img, 
+.lof-slidecontent ul.navigator-wrap-inner li:hover img  	{ border:#fff  solid 1px; }
+.lof-slidecontent  .button-next, 
+.lof-slidecontent .button-previous							{ display:block; width:40px; color:#FFF; cursor:pointer; position:absolute; height:100%; z-index:40; top:0; text-indent:-999px;}
+	
+.lof-slidecontent .button-next 								{ right:0px; background:url(images/next.png) no-repeat right center; }
+.lof-slidecontent .button-previous 							{ left:0px; background:url(images/previous.png) no-repeat left center; }
+.lof-slidecontent .button-control 							{ position:absolute; top:10px; right:48%; height: 20px; width: 20px; cursor:hand; cursor:pointer; background:url(images/zero.gif) repeat;}
+.lof-slidecontent .button-control span 						{ display:block;  width:100%; height:100%;}
+.lof-slidecontent .action-start span  						{ background:url(images/zero.gif) no-repeat center center; }
+.lof-slidecontent .action-stop span 						{ background:url(images/zero.gif) no-repeat center center; }
+
+

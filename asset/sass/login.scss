@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body{
+  background-color: white;
+  font-size: 10pt;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  background-image: url(../images/bg.svg);
+  margin: 0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:fixed;
+}
+.text-pacifico{
+  font-family: 'Pacifico', cursive;
+}
+.text-warning{
+  color:#fed100!important;
+}
+b{
+  font-weight: 700;
+}
+
+.btn-full{
+  width: 100%;
+}
+.btn-yellow{
+  background-color:#fed100;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 5px 7px  rgba(254,209,0,0.4);
+  &:hover{
+    box-shadow:0px 0px 4px  rgba(254,209,0,0.7);
+    transition: all ease-in-out;
+  color: white;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body{
+    background-color:#fed100;
+    background-image:none;
+  }
+  #text{
+    display: none;
+  }
+  .mr-auto{
+    margin-right: none!important;
+  }
+}

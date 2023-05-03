@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="20.574mm" height="20.574mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1519 1519"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#FED100}
+    .fil2 {fill:white}
+    .fil0 {fill:#E6E6E6;fill-opacity:0.501961}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2187246697776">
+   <g>
+    <path class="fil0" d="M760 0c419,0 759,340 759,760 0,419 -340,759 -759,759 -420,0 -760,-340 -760,-759 0,-420 340,-760 760,-760z"/>
+    <path class="fil0" d="M760 109c359,0 651,291 651,651 0,359 -292,651 -651,651 -360,0 -651,-292 -651,-651 0,-360 291,-651 651,-651z"/>
+    <circle class="fil1" cx="760" cy="760" r="545"/>
+   </g>
+   <g>
+    <path class="fil2" d="M1056 504c-9,0 -16,8 -16,17l0 429c0,46 -37,83 -82,83l-396 0c-46,0 -82,-37 -82,-83l0 -463 474 0 0 417c0,9 7,16 16,16 9,0 16,-7 16,-16l0 -434c0,-8 -7,-16 -16,-16l-507 0c-9,0 -16,8 -16,16l0 480c0,64 52,115 115,115l396 0c63,0 114,-51 114,-115l0 -429c0,-9 -7,-17 -16,-17z"/>
+    <path class="fil2" d="M892 580c9,0 16,-7 16,-16 0,-9 -7,-16 -16,-16l-353 0c-9,0 -17,7 -17,16 0,9 8,16 17,16l353 0z"/>
+    <path class="fil2" d="M892 878l-353 0c-9,0 -17,7 -17,16 0,9 8,16 17,16l353 0c8,0 16,-7 16,-16 0,-9 -7,-16 -16,-16z"/>
+    <path class="fil2" d="M892 961l-297 0c-9,0 -17,7 -17,16 0,9 8,16 17,16l297 0c9,0 16,-7 16,-16 0,-9 -7,-16 -16,-16z"/>
+    <path class="fil2" d="M517 637l0 175c0,9 7,16 16,16l176 0c9,0 16,-7 16,-16l0 -175c0,-9 -7,-17 -16,-17l-176 0c-9,0 -16,8 -16,17zm32 16l144 0 0 143 -144 0 0 -143z"/>
+    <path class="fil2" d="M900 637l-116 0c-9,0 -16,7 -16,16 0,9 7,16 16,16l116 0c9,0 16,-7 16,-16 0,-9 -7,-16 -16,-16z"/>
+    <path class="fil2" d="M900 710l-116 0c-9,0 -16,7 -16,16 0,9 7,16 16,16l116 0c9,0 16,-7 16,-16 0,-9 -7,-16 -16,-16z"/>
+    <path class="fil2" d="M916 804c0,-9 -7,-16 -16,-16l-116 0c-9,0 -16,7 -16,16 0,9 7,16 16,16l116 0c9,0 16,-7 16,-16z"/>
+   </g>
+  </g>
+ </g>
+</svg>

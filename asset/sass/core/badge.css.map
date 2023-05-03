@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACX,gBAAgB,EAAC,MAAO;CACzB;;AACD,AAAA,WAAW,CAAA;EACT,gBAAgB,EAAC,OAAQ;CAC1B;;AACD,AAAA,WAAW,CAAA;EACT,gBAAgB,EAAC,OAAO;CACzB;;AACD,AAAA,WAAW,CAAA;EACT,gBAAgB,EAAC,OAAQ;CAC1B",
+    "sources": [
+        "badge.scss"
+    ],
+    "names": [],
+    "file": "badge.css"
+}

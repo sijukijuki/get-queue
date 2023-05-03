@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+* {
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+}
+
+body {
+  font-size: 10pt;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: black;
+  position: relative;
+  background-color: #f1f5f8;
+}
+
+b {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.btn-yellow {
+  background-color: #fed100;
+  color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 5px 7px rgba(254, 209, 0, 0.4);
+          box-shadow: 0px 5px 7px rgba(254, 209, 0, 0.4);
+}
+
+.btn-yellow:hover {
+  -webkit-box-shadow: 0px 0px 4px rgba(254, 209, 0, 0.7);
+          box-shadow: 0px 0px 4px rgba(254, 209, 0, 0.7);
+  -webkit-transition: all ease-in-out;
+  transition: all ease-in-out;
+  color: white;
+}
+
+.btn-rounded {
+  border-radius: 50px;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.navbar {
+  background-color: white;
+  border-top: solid 4px #fed100;
+  border-bottom: solid 1px #dcdddd;
+}
+
+.side-left {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  padding: 20px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-right: solid 1px #dcdddd;
+  margin-top: 55px;
+  background-color: white;
+}
+
+.side-right {
+  width: calc(100vw - 250px);
+  position: absolute;
+  left: 250px;
+  margin-top: 55px;
+}
+
+#closeMenu, #openMenu {
+  display: none;
+}
+
+main {
+  min-height: 82vh;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav li.nav-item {
+  margin-bottom: 2px;
+}
+
+.nav li.nav-item .nav-link {
+  border-left: solid 4px transparent;
+  border-radius: 0px !important;
+  color: #727272;
+}
+
+.nav li.nav-item .nav-link i {
+  margin-right: 6px;
+  color: #727272;
+}
+
+.nav li.nav-item .nav-link:hover {
+  border-left: solid 4px #fed100;
+  background-color: #fdf6e6;
+  -webkit-transition: all;
+  transition: all;
+  color: #fed100;
+}
+
+.nav li.nav-item .nav-link:hover i {
+  color: #fed100;
+}
+
+.card {
+  border-radius: 0px !important;
+}
+
+.border-left {
+  border-left: solid 8px #e3e7f3 !important;
+}
+
+.bg-warning-2 {
+  background-color: #fff4bf;
+}
+
+@media screen and (max-width: 576px) {
+  .side-left {
+    left: -250px;
+    z-index: 9;
+    overflow-y: scroll;
+    background-color: white;
+  }
+  .side-right {
+    width: 100vw;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+  }
+  #closeMenu, #openMenu {
+    display: unset;
+  }
+  .close-side-left {
+    left: -250px;
+    -webkit-transition: left ease-in-out 0.5s;
+    transition: left ease-in-out 0.5s;
+  }
+  .open-side-left {
+    left: 0px;
+    -webkit-transition: left ease-in-out 0.5s;
+    transition: left ease-in-out 0.5s;
+  }
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: crosshair;
+}
+
+a.enabled {
+  pointer-events: visible !important;
+}
+/*# sourceMappingURL=admin2.css.map */

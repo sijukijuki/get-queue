@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+}
+body{
+  font-size: 10pt;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding:0;
+  color: black;
+  position: relative;
+  background-color: #f1f5f8;
+}
+b{
+  font-weight: 700;
+}
+a{
+  text-decoration: none;
+}
+button,a{
+  cursor: pointer;
+}
